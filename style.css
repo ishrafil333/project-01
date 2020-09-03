@@ -1,0 +1,54 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+
+}
+
+.navbar {
+    border-bottom: 3px solid #008ed6;
+    background: #292b2c;
+    opacity: .7;
+}
+
+#home {
+    background: url(img/home.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+#home .dark-overlay {
+    background: rgb(0, 0, 0, 0.7);
+    min-height: 700px;
+}
+
+.fa {
+    background: #fff;
+    font-size: 30px;
+    padding: 4px;
+    color: blue;
+    border-radius: 5px;
+}
+
+. form-card {
+    opacity: .9;
+}
+
+.home-inner {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#main-section .fa {
+    color: #fff;
+}
+
+@media(max-width:768px) {
+    #home h1 {
+        font-size: 36px;
+    }
+}
